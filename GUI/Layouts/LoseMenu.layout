@@ -2,7 +2,7 @@
 <MyGUI type="Layout" version="3.2.0">
     <Widget type="Window" skin="Window" position="130 120 370 170" align="Center" layer="Main">
         <Property key="Caption" value="Вы проиграли!!!"/>
-        <Widget type="Button" skin="Button" position="10 85 340 35" name="OkButton">
+        <Widget type="Button" skin="Button" position="10 85 340 35" name="OkButton2">
             <Property key="Caption" value="Окей =("/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="10 10 340 45"/>

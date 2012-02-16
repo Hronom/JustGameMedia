@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MyGUI type="Layout" version="3.2.0">
-    <Widget type="Window" skin="Window" position="173 150 293 180" align="Center" layer="Main">
+    <Widget type="Window" skin="Window" position="174 150 292 180" align="Center" layer="Main">
         <Property key="Caption" value="Главное меню"/>
+        <Property key="Movable" value="false"/>
+        <Property key="Alpha" value="1"/>
+        <Property key="Visible" value="true"/>
+        <Property key="Snap" value="true"/>
         <Widget type="Button" skin="Button" position="15 15 255 50" name="NewGameButton">
             <Property key="Caption" value="Новая игра"/>
             <UserString key="ButtonType" value="NewGame"/>
@@ -11,4 +15,5 @@
             <UserString key="ButtonType" value="Exit"/>
         </Widget>
     </Widget>
+    <CodeGeneratorSettings/>
 </MyGUI>
