@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Window" skin="Window" position="65 175 510 100" align="Center" layer="Overlapped">
+        <Property key="Caption" value="Загрузка"/>
+        <Widget type="TextBox" skin="TextBox" position="5 5 490 25" name="LoadingText"/>
+        <Widget type="ProgressBar" skin="ProgressBarFill" position="5 35 490 25" name="LoadingProgress"/>
+    </Widget>
+</MyGUI>
