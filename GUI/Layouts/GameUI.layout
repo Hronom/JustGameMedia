@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelSkin" position="5 5 315 40" layer="Main">
+        <Widget type="TextBox" skin="TextBox" position="5 5 95 25">
+            <Property key="Caption" value="Player health"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="ProgressBar" skin="ProgressBarFill" position="105 5 200 25" name="PlayerHealthBar">
+            <Property key="Range" value="100"/>
+            <Property key="RangePosition" value="0"/>
+            <Property key="FlowDirection" value="LeftToRight"/>
+            <Property key="AutoTrack" value="false"/>
+        </Widget>
+    </Widget>
+</MyGUI>
