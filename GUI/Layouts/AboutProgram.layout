@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Window" skin="Window" position="155 130 490 338" align="HCenter VCenter" layer="Main">
+        <Property key="Caption" value="О программе"/>
+        <Widget type="TextBox" skin="TextBox" position="5 5 115 30">
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="Caption" value="Имя игры:"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="5 40 115 30">
+            <Property key="Caption" value="Версия игры:"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="5 75 115 30">
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="Caption" value="Ядро игры:"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="5 110 115 30">
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="Caption" value="Версия ядра:"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="5 145 115 30">
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="Caption" value="Автор игры:"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="5 180 115 30">
+            <Property key="Caption" value="Email:"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="5 215 115 30">
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="Caption" value="Blog:"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="125 5 350 30">
+            <Property key="Caption" value="Just Game"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="125 40 350 30">
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="Caption" value="0.0.1"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="125 75 350 30">
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="Caption" value="JustGameCore"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="125 110 350 30">
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="Caption" value="0.0.1"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="125 145 350 30">
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="Caption" value="Hronom"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="125 180 350 30">
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="Caption" value="hronom@gmail.com"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="125 215 350 30">
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="Caption" value="http://hronom.blogspot.com/"/>
+        </Widget>
+        <Widget type="Button" skin="Button" position="150 250 180 50" align="HCenter Bottom" name="BackToMainMenu">
+            <Property key="Caption" value="Назад в главное меню"/>
+        </Widget>
+    </Widget>
+</MyGUI>
